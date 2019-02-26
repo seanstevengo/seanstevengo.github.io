@@ -1,9 +1,3 @@
-/* For all */
-
-body {
-    background-color: #FEE9E1;
-}
-
 /* For homepage */
 
 #me {
@@ -29,9 +23,7 @@ body {
 }
 
 #bgphoto {
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: absolute;
     width: 100%;
     height: 100%;
 }

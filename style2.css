@@ -1,20 +1,30 @@
 /* For Poem */
 
-#bgphoto {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+#bgphoto2 {
+    position: absolute;
     height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+#centeredpic {
+    position: absolute;
+    height: 50%;
+    width: 36.6%;
+    top: 25%;
+    left: 31.5%;
+    z-index: 1;
+    border-radius: 15%;
 }
 
 #centeredtext {
     font-size: 1em;
     position: absolute;
-    top: 57%;
-    left: 48%;
-    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 2;
     font-family:georgia,garamond,serif;
+    text-align: center;  
 }
 
 a:link {
@@ -41,6 +51,8 @@ a:active {
   text-decoration: underline;
 }
 
+
+/* For Words */
 #backlink {
     font-size: 1.5em;
     position: absolute;
