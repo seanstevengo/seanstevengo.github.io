@@ -26,3 +26,27 @@
     transform: translate(-50%, -50%);
     font-family:georgia,garamond,serif;
 }
+
+a:link {
+  color: indianred; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: indianred;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
