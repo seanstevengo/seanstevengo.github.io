@@ -18,8 +18,10 @@
 }
 
 #centeredtext {
-    font-size: 1.1em;
+    font-size: 0.9vw;
     position: absolute;
+    height: 50%;
+    width: 30%;
     top: 28%;
     left: 35%;
     z-index: 2;
@@ -37,13 +39,13 @@
 }
 
 #text1{
-    font-size: 3em;
+    font-size: 3vw;
 }
 #text2{
-    font-size: 2em;
+    font-size: 1.5vw;
 }
 #text3{
-    font-size: 1.1em;
+    font-size: 0.9vw;
 }
 
 a:link {
@@ -73,7 +75,7 @@ a:active {
 
 /* For Words */
 #backlink {
-    font-size: 1.5em;
+    font-size: 1.5vw;
     position: absolute;
     top: 57%;
     left: 48%;
